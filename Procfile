@@ -1,1 +1,1 @@
-web: gunicorn personalportfolio1022.wsgi
+web: python manage.py runserver 0.0.0.0:$PORT
